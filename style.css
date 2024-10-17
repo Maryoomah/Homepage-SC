@@ -107,6 +107,26 @@ body {
   gap: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .sections .row1 {
+    display: block;
+  }
+  .sections .row2 {
+    gap: 40px;
+    margin-inline: 20px;
+  }
+}
+
 .dates {
   margin-top: 30px;
   margin-inline: 100px;
@@ -121,10 +141,12 @@ h2 {
   margin-top: 10px;
   margin-left: 20px;
 }
+
 .sch-head {
   margin-top: 30px;
   margin-inline: 100px;
 }
+
 .schedule-body {
   margin-top: 30px;
   margin-inline: 120px 400px;
@@ -142,7 +164,13 @@ td {
 .schedule table {
   border-collapse: collapse;
 }
-
+@media screen and (max-width: 768px) {
+  .dates,
+  .sch-head,
+  .schedule-body {
+    margin-inline: 60px;
+  }
+}
 .schedule table th {
   padding: 10px;
 }
@@ -166,7 +194,14 @@ td {
   margin-bottom: 20px;
   font-weight: bolder;
 }
-
+@media screen and (max-width: 768px) {
+  .reg-head {
+    margin-inline: 60px;
+  }
+  .registration-body {
+    margin-inline: 60px;
+  }
+}
 .fees-notice2 {
   margin-bottom: 20px;
   color: rgb(240, 12, 12);
@@ -198,7 +233,14 @@ a {
 .conditions h4 {
   margin-block: 20px;
 }
-
+@media screen and (max-width: 768px) {
+  .conditions-head {
+    margin-inline: 60px;
+  }
+  .conditions-body {
+    margin-inline: 60px;
+  }
+}
 .equipment-head {
   margin-top: 30px;
   margin-inline: 100px;
@@ -208,7 +250,14 @@ a {
   margin-top: 30px;
   margin-inline: 120px 400px;
 }
-
+@media screen and (max-width: 768px) {
+  .equipment-head {
+    margin-inline: 60px;
+  }
+  .equipment-body {
+    margin-inline: 60px;
+  }
+}
 .apartment {
   margin-top: 30px;
   margin-inline: 100px;
@@ -247,6 +296,20 @@ ul {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .apartment {
+    margin-inline: 60px;
+  }
+  .images {
+    display: block;
+  }
+  .images img {
+    width: 350px;
+  }
+  .reservation {
+    margin-inline: 20px 100px;
+  }
+}
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url(scrabble\ tiles.jpeg);
@@ -328,4 +391,22 @@ ul {
 .to-position button {
   position: absolute;
   right: 53%;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    display: block;
+  }
+  .quick-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .to-position button {
+    position: absolute;
+    right: 35%;
+  }
+
+  .third-column {
+    margin-left: 50px;
+  }
 }
