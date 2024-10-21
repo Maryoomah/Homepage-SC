@@ -42,7 +42,7 @@ body {
   margin: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .heading {
     display: flex;
     align-items: center;
@@ -159,7 +159,7 @@ body {
   gap: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .sections .row1 {
     display: block;
   }
@@ -206,7 +206,7 @@ td {
 .schedule table {
   border-collapse: collapse;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .dates,
   .sch-head,
   .schedule-body {
@@ -236,7 +236,7 @@ td {
   margin-bottom: 20px;
   font-weight: bolder;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .reg-head {
     margin-inline: 60px;
   }
@@ -275,7 +275,7 @@ a {
 .conditions h4 {
   margin-block: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .conditions-head {
     margin-inline: 60px;
   }
@@ -292,7 +292,7 @@ a {
   margin-top: 30px;
   margin-inline: 120px 400px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .equipment-head {
     margin-inline: 60px;
   }
@@ -338,7 +338,7 @@ ul {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .apartment {
     margin-inline: 60px;
   }
@@ -434,7 +434,7 @@ ul {
   position: absolute;
   right: 53%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .footer {
     display: block;
   }
