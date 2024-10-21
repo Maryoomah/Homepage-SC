@@ -19,16 +19,23 @@
   <body>
     <div class="heading">
       <img src="SCAG.webp" alt="scag logo" width="80px" />
-      <nav class="main-nav" id="home">
-        <a href="#home">Home</a>
-        <a href="#home">About</a>
-        <a href="#home">Ratings</a>
-        <a href="#home">WESPAC</a>
-        <a href="#home">News</a>
-        <a href="#home">Gallery</a>
-        <a href="#home">Resources</a>
-        <a href="#home">Contact Us</a>
-      </nav>
+      <div class="main-nav" id="MainNav">
+        <a
+          href="javascript:void(0);"
+          class="nav-icon responsive"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#MainNav">Home</a>
+        <a href="#MainNav">About</a>
+        <a href="#MainNav">Ratings</a>
+        <a href="#MainNav">WESPAC</a>
+        <a href="#MainNav">News</a>
+        <a href="#MainNav">Gallery</a>
+        <a href="#MainNav">Resources</a>
+        <a href="#MainNav">Contact Us</a>
+      </div>
     </div>
     <div class="hero">
       <a href=""> <h1 class="h1">WESPAC</h1> </a>
@@ -47,7 +54,8 @@
       </div>
       <div class="row2">
         <div>
-          <a href="#registration-changes"> <button>Registration Changes</button></a
+          <a href="#registration-changes">
+            <button>Registration Changes</button></a
           >
         </div>
         <div>
@@ -501,14 +509,14 @@
       <div class="second-column">
         <h3>Quick Links</h3>
         <div class="quick-links">
-          <a href="#home">Home</a>
-          <a href="#home">About</a>
-          <a href="#home">Ratings</a>
-          <a href="#home">WESPAC</a>
-          <a href="#home">News</a>
-          <a href="#home">Gallery</a>
-          <a href="#home">Resources</a>
-          <a href="#home">Contact Us</a>
+          <a href="#MainNav">Home</a>
+          <a href="#MainNav">About</a>
+          <a href="#MainNav">Ratings</a>
+          <a href="#MainNav">WESPAC</a>
+          <a href="#MainNav">News</a>
+          <a href="#MainNav">Gallery</a>
+          <a href="#MainNav">Resources</a>
+          <a href="#MainNav">Contact Us</a>
         </div>
       </div>
       <div class="third-column">
@@ -520,5 +528,16 @@
         </div>
       </div>
     </section>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("MainNav");
+        if (x.classList.contains("responsive")) {
+          x.classList.remove("responsive");
+        } else {
+          x.classList.add("responsive");
+        }
+      }
+    </script>
   </body>
 </html>
